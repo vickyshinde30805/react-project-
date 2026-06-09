@@ -1,0 +1,74 @@
+*{
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  font: 'Helvetica Neue', Arial, sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 28px;
+  background: rgba(15, 23, 42, 0.95);
+  color: #f8fafc;
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.14);
+  border-radius: 0 0 20px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 180ms ease;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+}
+
+.navbar-cta {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  border: none;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.navbar-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.3);
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
