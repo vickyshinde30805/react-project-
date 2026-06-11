@@ -1,0 +1,13 @@
+import Navbar from './navbar'
+import Page1content from './Page1content'
+
+const Page1 = (props) => {
+  return (
+    <div className='h-screen w-full bg-white'>
+      <Navbar />
+      <Page1content users={props.users} />
+    </div>
+  )
+}
+
+export default Page1
